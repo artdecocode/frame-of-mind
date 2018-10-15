@@ -8,15 +8,15 @@ const T = {
   'is a function'() {
     equal(typeof frameOfMind, 'function')
   },
-  async 'calls package without error'() {
-    await frameOfMind()
-  },
-  async 'gets a link to the fixture'({ FIXTURE }) {
-    const res = await frameOfMind({
-      text: FIXTURE,
-    })
-    ok(res, FIXTURE)
-  },
+  // async 'calls package without error'() {
+  //   await frameOfMind()
+  // },
+  // async 'gets a link to the fixture'({ FIXTURE }) {
+  //   const res = await frameOfMind({
+  //     text: FIXTURE,
+  //   })
+  //   ok(res, FIXTURE)
+  // },
 }
 
 export default T

@@ -2,5 +2,7 @@
 test
 
 /* expected */
-test
+┌──────┐
+│ test │
+└──────┘
 /**/

@@ -1,26 +1,24 @@
-import { debuglog } from 'util'
-
-const LOG = debuglog('frame-of-mind')
-
+import paddys from 'paddys'
 /**
  * Add a frame around strings.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * @param {string} string The string to frame.
+ * @param {Config} [options] Options for the program.
+ * @param {number} [options.padding=1] The left and right padding. Default `1`.
  */
-export default async function frameOfMind(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('frame-of-mind called with %s', text)
-  return text
+export default function frameOfMind(string, options = {}) {
+  const { padding = 1 } = options
+  const l = string.split('\n')
+  const w = l.reduce((acc, { length }) => length > acc ? length : acc, 0)
+  const ww = w + padding * 2
+  const bt = `┌${'─'.repeat(ww)}┐`
+  const bb = `└${'─'.repeat(ww)}┘`
+  const pp = ' '.repeat(padding)
+  const p = l.map(line => `│${pp}${paddys(line)}${pp}│`).join('\n')
+  return `${bt}\n${p}\n${bb}`
 }
 
 /* documentary types/index.xml */
 /**
  * @typedef {Object} Config Options for the program.
- * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
- * @prop {string} text A text to return.
+ * @prop {number} [padding=1] The left and right padding. Default `1`.
  */

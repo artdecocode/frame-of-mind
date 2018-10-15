@@ -1,10 +1,7 @@
 <types>
   <type name="Config" desc="Options for the program.">
-    <prop boolean name="shouldRun" default="true">
-      A boolean option.
-    </prop>
-    <prop string name="text">
-      A text to return.
+    <prop number name="padding" default="1">
+      The left and right padding.
     </prop>
   </type>
 </types>
