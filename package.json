@@ -1,7 +1,7 @@
 {
   "name": "frame-of-mind",
   "version": "0.0.0",
-  "description": "Add a frame around strings.",
+  "description": "Add A Frame Around Strings.",
   "main": "build",
   "scripts": {
     "t": "zoroaster -a",
@@ -27,7 +27,15 @@
     "url": "git://github.com/artdecocode/frame-of-mind.git"
   },
   "keywords": [
-    "frame-of-mind"
+    "frame-of-mind",
+    "frame",
+    "string",
+    "strings",
+    "border",
+    "margin",
+    "padding",
+    "notice",
+    "warning"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
