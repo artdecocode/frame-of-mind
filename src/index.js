@@ -13,7 +13,10 @@ export default function frameOfMind(string, options = {}) {
   const bt = `┌${'─'.repeat(ww)}┐`
   const bb = `└${'─'.repeat(ww)}┘`
   const pp = ' '.repeat(padding)
-  const p = l.map(line => `│${pp}${paddys(line)}${pp}│`).join('\n')
+  const p = paddys(string)
+    .split('\n')
+    .map(line => `│${pp}${line}${pp}│`)
+    .join('\n')
   return `${bt}\n${p}\n${bb}`
 }
 

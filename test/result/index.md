@@ -6,3 +6,14 @@ test
 │ test │
 └──────┘
 /**/
+
+// returns the correct output for multiple lines
+test
+t
+
+/* expected */
+┌──────┐
+│ test │
+│ t    │
+└──────┘
+/**/
