@@ -8,7 +8,7 @@ import frameOfMind from 'frame-of-mind'
 
 %~%
 
-```## frameOfMind
+```## frameOfMind => string
 [
   ["string", "string"],
   ["options?", "Config"]

@@ -12,7 +12,7 @@ yarn add -E frame-of-mind
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`frameOfMind(string: string, options?: Config)`](#frameofmindstring-stringoptions-config-void)
+- [`frameOfMind(string: string, options?: Config): string`](#frameofmindstring-stringoptions-config-string)
   * [`Config`](#type-config)
 - [Copyright](#copyright)
 
@@ -28,7 +28,7 @@ import frameOfMind from 'frame-of-mind'
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `frameOfMind(`<br/>&nbsp;&nbsp;`string: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): void`
+## `frameOfMind(`<br/>&nbsp;&nbsp;`string: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): string`
 
 This function will add a frame around strings with single or multiple lines.
 
