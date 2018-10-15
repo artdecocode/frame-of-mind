@@ -51,6 +51,6 @@
     "zoroaster": "3.6.2"
   },
   "dependencies": {
-    "paddys": "1.0.0"
+    "paddys": "1.0.1"
   }
 }
