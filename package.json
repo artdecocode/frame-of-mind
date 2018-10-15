@@ -1,6 +1,6 @@
 {
   "name": "frame-of-mind",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Add A Frame Around Strings.",
   "main": "build",
   "scripts": {
