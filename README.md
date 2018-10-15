@@ -12,7 +12,7 @@ yarn add -E frame-of-mind
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`frameOfMind(arg1: string, options?: Config)`](#frameofmindarg1-stringoptions-config-void)
+- [`frameOfMind(string: string, options?: Config)`](#frameofmindstring-stringoptions-config-void)
   * [`Config`](#type-config)
 - [Copyright](#copyright)
 
@@ -28,7 +28,7 @@ import frameOfMind from 'frame-of-mind'
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `frameOfMind(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): void`
+## `frameOfMind(`<br/>&nbsp;&nbsp;`string: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): void`
 
 This function will add a frame around strings with single or multiple lines.
 
@@ -39,18 +39,24 @@ __<a name="type-config">`Config`</a>__: Options for the program.
 | padding | _number_ | The left and right padding. | `1`     |
 
 ```js
-/* yarn example/ */
 import frameOfMind from 'frame-of-mind'
 
-(async () => {
-  const res = await frameOfMind({
-    text: 'example',
-  })
-  console.log(res)
-})()
+const res = frameOfMind(
+  `There are thousands upon thousands of students
+who have practised meditation and obtained its fruits.
+Do not doubt its possibilities because of the simplicity of the method.
+If you can not find the truth right where you are,
+where else do you expect to find it?`
+)
 ```
 ```
-
+┌─────────────────────────────────────────────────────────────────────────┐
+│ There are thousands upon thousands of students                          │
+│ who have practised meditation and obtained its fruits.                  │
+│ Do not doubt its possibilities because of the simplicity of the method. │
+│ If you can not find the truth right where you are,                      │
+│ where else do you expect to find it?                                    │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>

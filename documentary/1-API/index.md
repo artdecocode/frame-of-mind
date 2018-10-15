@@ -10,7 +10,7 @@ import frameOfMind from 'frame-of-mind'
 
 ```## frameOfMind
 [
-  ["arg1", "string"],
+  ["string", "string"],
   ["options?", "Config"]
 ]
 ```
