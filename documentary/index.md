@@ -2,7 +2,7 @@
 
 %NPM: frame-of-mind%
 
-`frame-of-mind` is Add a frame around strings.
+`frame-of-mind` adds a frame around strings.
 
 ```sh
 yarn add -E frame-of-mind

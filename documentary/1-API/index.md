@@ -11,11 +11,11 @@ import frameOfMind from 'frame-of-mind'
 ```## frameOfMind
 [
   ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["options?", "Config"]
 ]
 ```
 
-Call this function to get the result you want.
+This function will add a frame around strings with single or multiple lines.
 
 %TYPEDEF types/index.xml%
 

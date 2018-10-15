@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/frame-of-mind.svg)](https://npmjs.org/package/frame-of-mind)
 
-`frame-of-mind` is Add a frame around strings.
+`frame-of-mind` adds a frame around strings.
 
 ```sh
 yarn add -E frame-of-mind
@@ -12,7 +12,7 @@ yarn add -E frame-of-mind
 
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
-- [`frameOfMind(arg1: string, arg2?: boolean)`](#mynewpackagearg1-stringarg2-boolean-void)
+- [`frameOfMind(arg1: string, options?: Config)`](#frameofmindarg1-stringoptions-config-void)
   * [`Config`](#type-config)
 - [Copyright](#copyright)
 
@@ -28,16 +28,15 @@ import frameOfMind from 'frame-of-mind'
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
 
-## `frameOfMind(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`arg2?: boolean,`<br/>`): void`
+## `frameOfMind(`<br/>&nbsp;&nbsp;`arg1: string,`<br/>&nbsp;&nbsp;`options?: Config,`<br/>`): void`
 
-Call this function to get the result you want.
+This function will add a frame around strings with single or multiple lines.
 
 __<a name="type-config">`Config`</a>__: Options for the program.
 
-|   Name    |   Type    |    Description    | Default |
-| --------- | --------- | ----------------- | ------- |
-| shouldRun | _boolean_ | A boolean option. | `true`  |
-| __text*__ | _string_  | A text to return. | -       |
+|  Name   |   Type   |         Description         | Default |
+| ------- | -------- | --------------------------- | ------- |
+| padding | _number_ | The left and right padding. | `1`     |
 
 ```js
 /* yarn example/ */
@@ -51,7 +50,7 @@ import frameOfMind from 'frame-of-mind'
 })()
 ```
 ```
-example
+
 ```
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>
