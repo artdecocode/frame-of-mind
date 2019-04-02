@@ -19,7 +19,7 @@ This function will add a frame around strings with single or multiple lines.
 
 %TYPEDEF types/index.xml%
 
-%EXAMPLE: example/example.js, ../src => frame-of-mind%
-%FORK example example/example%
+%EXAMPLE: example/example, ../src => frame-of-mind%
+%FORK example/example%
 
 %~%
