@@ -56,5 +56,6 @@
   },
   "dependencies": {
     "paddys": "1.1.0"
-  }
+  },
+  "externs": "externs.js"
 }
