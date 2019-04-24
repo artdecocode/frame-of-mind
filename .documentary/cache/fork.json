@@ -7,5 +7,9 @@
     ],
     "stdout": "┌─────────────────────────────────────────────────────────────────────────┐\n│ There are thousands upon thousands of students                          │\n│ who have practised meditation and obtained its fruits.                  │\n│ Do not doubt its possibilities because of the simplicity of the method. │\n│ If you can not find the truth right where you are,                      │\n│ where else do you expect to find it?                                    │\n└─────────────────────────────────────────────────────────────────────────┘\n",
     "stderr": ""
+  },
+  "[0109985c26d3e93345afba436cb13c59] example/example": {
+    "stdout": "┌─────────────────────────────────────────────────────────────────────────┐\n│ There are thousands upon thousands of students                          │\n│ who have practised meditation and obtained its fruits.                  │\n│ Do not doubt its possibilities because of the simplicity of the method. │\n│ If you can not find the truth right where you are,                      │\n│ where else do you expect to find it?                                    │\n└─────────────────────────────────────────────────────────────────────────┘\n",
+    "stderr": ""
   }
 }

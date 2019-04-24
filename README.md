@@ -13,7 +13,7 @@ yarn add -E frame-of-mind
 - [Table Of Contents](#table-of-contents)
 - [API](#api)
 - [`frameOfMind(string: string, options?: Config): string`](#frameofmindstring-stringoptions-config-string)
-  * [`Config`](#type-config)
+  * [`_frameOfMind.Config`](#type-_frameofmindconfig)
 - [Copyright](#copyright)
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/0.svg?sanitize=true"></a></p>
@@ -32,11 +32,11 @@ import frameOfMind from 'frame-of-mind'
 
 This function will add a frame around strings with single or multiple lines.
 
-__<a name="type-config">`Config`</a>__: Options for the program.
+__<a name="type-_frameofmindconfig">`_frameOfMind.Config`</a>__: Options for the program.
 
-|  Name   |   Type   |         Description         | Default |
-| ------- | -------- | --------------------------- | ------- |
-| padding | _number_ | The left and right padding. | `1`     |
+|  Name   |      Type       |         Description         | Default |
+| ------- | --------------- | --------------------------- | ------- |
+| padding | <em>number</em> | The left and right padding. | `1`     |
 
 ```js
 import frameOfMind from 'frame-of-mind'
@@ -63,8 +63,22 @@ where else do you expect to find it?`
 
 ## Copyright
 
-(c) [Art Deco][1] 2019
-
-[1]: https://artd.eco
+<table>
+  <tr>
+    <th>
+      <a href="https://artd.eco">
+        <img src="https://raw.githubusercontent.com/wrote/wrote/master/images/artdeco.png" alt="Art Deco" />
+      </a>
+    </th>
+    <th>© <a href="https://artd.eco">Art Deco</a>   2019</th>
+    <th>
+      <a href="https://www.technation.sucks" title="Tech Nation Visa">
+        <img src="https://raw.githubusercontent.com/artdecoweb/www.technation.sucks/master/anim.gif"
+          alt="Tech Nation Visa" />
+      </a>
+    </th>
+    <th><a href="https://www.technation.sucks">Tech Nation Visa Sucks</a></th>
+  </tr>
+</table>
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/-1.svg?sanitize=true"></a></p>

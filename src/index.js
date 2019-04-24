@@ -2,7 +2,7 @@ import paddys from 'paddys'
 /**
  * Add a frame around strings.
  * @param {string} string The string to frame.
- * @param {Config} [options] Options for the program.
+ * @param {!_frameOfMind.Config} [options] Options for the program.
  * @param {number} [options.padding=1] The left and right padding. Default `1`.
  */
 export default function frameOfMind(string, options = {}) {
@@ -22,6 +22,11 @@ export default function frameOfMind(string, options = {}) {
 
 /* documentary types/index.xml */
 /**
- * @typedef {Object} Config Options for the program.
+ * @suppress {nonStandardJsDocs}
+ * @typedef {_frameOfMind.Config} Config Options for the program.
+ */
+/**
+ * @suppress {nonStandardJsDocs}
+ * @typedef {Object} _frameOfMind.Config Options for the program.
  * @prop {number} [padding=1] The left and right padding. Default `1`.
  */

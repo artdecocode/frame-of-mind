@@ -1,4 +1,4 @@
-<types>
+<types namespace="_frameOfMind">
   <type name="Config" desc="Options for the program.">
     <prop number name="padding" default="1">
       The left and right padding.
