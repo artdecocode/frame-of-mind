@@ -1,5 +1,9 @@
 ## 24 April 2019
 
+### [1.2.2](https://github.com/artdecocode/frame-of-mind/compare/v1.2.1...v1.2.2)
+
+- [externs] Add the `externs` field to the _package.json_ file.
+
 ### [1.2.1](https://github.com/artdecocode/frame-of-mind/compare/v1.2.0...v1.2.1)
 
 - [externs] Correctly generate the externs file.
