@@ -26,6 +26,7 @@
     "src",
     "externs.js"
   ],
+  "externs": "externs.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/artdecocode/frame-of-mind.git"
@@ -55,7 +56,6 @@
     "zoroaster": "3.13.0"
   },
   "dependencies": {
-    "paddys": "1.1.0"
-  },
-  "externs": "externs.js"
+    "paddys": "^1.2.0"
+  }
 }

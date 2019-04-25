@@ -1,3 +1,9 @@
+## 25 April 2019
+
+### [1.2.3](https://github.com/artdecocode/frame-of-mind/compare/v1.2.2...v1.2.3)
+
+- [deps] Update and unlock `paddys`.
+
 ## 24 April 2019
 
 ### [1.2.2](https://github.com/artdecocode/frame-of-mind/compare/v1.2.1...v1.2.2)

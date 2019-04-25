@@ -293,9 +293,9 @@ fpj@^1.2.1:
     resolve-dependency "^1.0.2"
 
 frame-of-mind@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/frame-of-mind/-/frame-of-mind-1.1.0.tgz#b34398e91b2025bb9bce1f5d4ede98b3892fd39c"
-  integrity sha512-nPGTndyVYIcj1CkBlfLOAHTII87/kyY7qldvYeikTUxtkuFo8nQx0OfS4g4X1UacOsp/5A1phbXxLvuJ8mTYrg==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/frame-of-mind/-/frame-of-mind-1.2.2.tgz#92f09f08b8b83d3dda6fafcb579c91abf32769c5"
+  integrity sha512-dgv1izDb5tQRHaW5VR8uDKJo9MJRE2lIT/gDclLqD0r7z2MiC4pregNiK87MhXFhqqyIG3HzHVFdNxz3fugD3g==
   dependencies:
     paddys "1.1.0"
 
@@ -329,6 +329,11 @@ paddys@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/paddys/-/paddys-1.1.0.tgz#38f23de14ea0e1af629710fab84f65b3215b3618"
   integrity sha512-cdis3a0TexvTEz12xQ4qBwQ6EwtzNTk9zgdQnBgXOS3QTj8uYv1IWwCJPqPVrUddGV4qvrotz1ijtw90JCUhig==
+
+paddys@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/paddys/-/paddys-1.2.0.tgz#984d61e0e7d96cc4c49fb5b5cfd6c9b7c080161d"
+  integrity sha512-wVss/tiodStz+HYquccKuE0T3IzxF4bXONeu4N9Goy5j++9MT07Aqe+I/vrjZG6z58HMjKr1R6QYtjXUs9+kug==
 
 pedantry@^2.3.2:
   version "2.3.2"
